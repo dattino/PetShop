@@ -1,7 +1,311 @@
-header{
-    background-color: rgba(34, 34, 34, 1);
-}
-.menu{
-    background-color:rgba(240, 168, 62, 1);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+/*----------Ofertas----------*/
+.ofertas{
+    background: rgba(34, 34, 34, 1);
+    height: 20px;
+    font-size: 10px;
+    color: white;
+    position: relative;
+} 
+    .ofertas p{
+        box-sizing: content-box;
+        display: inline;
+        position: absolute;
+            top: 4px;
+            left: 90px;
+            bottom: 4px;
+    }
+    .ofertas ul{
+        list-style-type: none;
+        text-align: right;
+        padding: 4px 60px;
+    }
+    .ofertas li{
+        display: inline;
+        margin: 0px 10px;
+        
+    }
+
+
+    /*----------Menú----------*/
+.menu{
+    background: rgba(240, 168, 62, 1);
+    height: 62px;
+    position: relative;
+    color: white;
+}
+    .menu .logo{
+        height: 23px;
+        font-size: 13px;
+        position: absolute;
+            left: 40px;
+            top: 19px;
+            bottom: 19px;
+    }
+    .menu ul{
+        list-style-type: none ;
+        text-align: right;
+        padding: 23px 40px;
+    }
+    .menu li{
+        display: inline;
+        margin: 0px 10px;
+    }
+
+
+/*----------Bienvenida----------*/
+.bienvenida{
+    background: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-size: cover;
+    height: 409px;
+    background-repeat: no-repeat;
+    padding: 156px 12px 107px 658px;
+    position: relative;
+}
+    .bienvenida h1{
+        position: absolute;
+            top: 156px;
+            right: 12px;
+            bottom: 199px;
+        background-color: white;
+        border-radius: 5px;
+        font-size: 30px;
+        font-weight: normal;
+        font-style: normal;
+        padding: 10px;
+    }
+    .bienvenida h2{
+        position: absolute;
+            top: 222px;
+            right: 95px;
+            bottom: 168px;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+    }
+    .bienvenida h3{
+        position: absolute;
+            top: 253px;
+            right: 117px;
+            bottom: 107px;
+        background-color: rgba(240, 168, 62, 1);
+        padding: 15px 23px;
+        color: white;
+        font-size: 16px;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: uppercase;
+    }
+
+
+/*----------Destacados----------*/
+.destacados{
+    text-align: center;
+    position: relative;
+}
+    .destacados i{
+        font-size: 40px;
+        color: rgba(240, 168, 62, 1);
+        margin-top: 20px;
+    }
+    .destacados h2{
+        font-size: 40px;
+        color: rgba(60, 35, 19, 1);
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    .destacados span{
+        word-spacing: 10px;
+        font-size: 15px;
+        margin: 0px 10px;
+        color: rgba(102, 102, 102, 1);
+        margin-top: 20px;
+    }
+.carrucel{
+    position: relative;
+}
+    .productos{
+        width: 265px;
+    }
+        .productos p{
+            font-size: 15px;
+            color: rgba(60, 35, 19, 1);
+        }
+        .productos .precio{
+            color: rgba(240, 168, 62, 1);
+        }
+
+
+/*----------Contacto----------*/
+.contacto{
+    text-align: center;
+}
+    .contacto h2{
+        color: rgba(60, 35, 19, 1);
+        font-size: 25px;
+    }
+    .contacto ul{
+        list-style-type: none;
+        padding-left: 343px;
+        margin-bottom: 41px;
+    }
+    .contacto li{
+        text-align: left;
+        background-color: rgba(60, 35, 19, 1);
+        color: white;
+        font-size: 9px;
+        padding: 15px;
+        border-radius: 15px;
+        width: 340px;
+        height: 40px;
+        margin: 10px;
+    }
+    .contacto .boton1{
+        background-color: rgba(138, 135, 135, 1);
+        color: white;
+        font-size: 16px;
+        height: 34px;
+        border-radius: 15px;
+        display: inline;
+        padding: 8px 25px;
+        margin-bottom: 75px;
+    }
+    .contacto .boton2{
+        background-color: rgba(240, 168, 62, 1);
+        color: white;
+        font-size: 16px;
+        height: 34px;
+        border-radius: 15px;
+        display: inline;
+        padding: 8px 25px;
+        top: 41px;
+    }
+
+
+/*----------newsLetter----------*/
+.suscribir{
+    background: rgba(240, 168, 62, 1);
+    height: 60px;
+    position: relative;
+    color: white;
+    margin-top: 75px;
+}
+    .suscribir img{
+        width: 40px;
+        height: 40px;
+        position: absolute;
+            left: 23px;
+            top: 10px;
+            bottom: 10px;
+    }
+    .suscribir .novedades{
+        font-size: 20px;
+        font-weight: bold;
+        position: absolute;
+            left: 73px;
+            top: 20px;
+            bottom: 17px;
+    }
+    .suscribir .completar{
+        position: absolute;
+            right: 122px;
+            top: 12px;
+            bottom: 10px;
+        background-color: white;
+        border-radius: 15px;
+        height: 40px;
+        width: 271px;
+        font-size: 9px;
+        color: gray;
+        text-align: left;
+        padding: 14px 8px;
+    }
+    .suscribir .boton{
+        position:absolute;
+            right: 47px;
+            top: 13px;
+            bottom: 13px;
+        background-color: rgba(60, 35, 19, 1);
+        border-radius: 15px;
+        height: 34px;
+        width: 70px;
+        font-weight: bold;
+        font-size: 9px;
+        color: white;
+        padding: 12px 10px;
+    }
+
+/*----------Contactar----------*/
+.contactar{
+    background: rgba(60, 35, 19, 1);
+    height: 284px;
+    position: relative;
+}
+    .contactar img{
+        height: 66px;
+        width:  66px;
+    }
+    .contactar .logo{
+        height: 23px;
+        width: 166px;
+        position: absolute;
+            top: 130px;
+            right: 70px;
+    }
+    .contactar .lugar{
+        height: 66px;
+        width: 179px;
+        position: absolute;
+            left: 70px;
+            top: 23px;  
+    }
+    .contactar .telefono{
+        height: 66px;
+        width: 181px;
+        position: absolute;
+            left: 70px;
+            top: 109px;  
+    }
+    .contactar .correo{
+        height: 66px;
+        width: 260px;
+        position: absolute;
+            left: 70px;
+            bottom: 23px;  
+    }
+    .contactar h4{
+        font-size: 20px;
+        text-align: left;
+        font-weight: bold;
+        color: white;
+        position: absolute;
+            left: 91px;
+            bottom: 43px;
+    }
+    .contactar h5{
+        font-size: 10px;
+        text-align: left;
+        font-weight: bold;
+        color: rgba(138, 135, 135, 1);
+        position: absolute;
+            left: 91px;
+            bottom: 31px;
+    }
+
+/*----------Derechos----------*/
+.derechos{
+    height: 20px;
+    background: rgba(34, 34, 34, 1);
+    text-align: center;
+    color: white;
+    font-size: 10px;
+    padding: 4px;
 }
