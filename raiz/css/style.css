@@ -130,16 +130,25 @@
         margin-top: 20px;
     }
 .carrucel{
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
     .productos{
+        position: relative;
+        background-color: rgba(251, 250, 246, 1);
         width: 265px;
+        height: 312px;
     }
+        .productos img{
+            width: 265px;
+        }
         .productos p{
             font-size: 15px;
             color: rgba(60, 35, 19, 1);
         }
         .productos .precio{
+            font-size: 15px;
             color: rgba(240, 168, 62, 1);
         }
 
